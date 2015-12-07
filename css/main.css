@@ -1,0 +1,12 @@
+@import url(base.css) (min-width:1201px);
+@import url(medium.css) (min-width:901px) and (max-width:1200px);
+@import url(small.css) (max-width:900px);
+
+@font-face {
+    font-family: Arial;
+    src: url('../fonts/arial.ttf');
+}
+@font-face {
+    font-family: 'Arial Bold';
+    src: url('../fonts/arial_bold.ttf');
+}
