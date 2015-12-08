@@ -250,7 +250,7 @@ header{
 /**Footer**/
 footer{
     background:#1f2833;
-    min-height:282px;
+    height:auto;
     color:white;
 }
 footer .layout-column{
@@ -267,11 +267,15 @@ footer .media{
     color:#ffb400;
     font-size: 1.5em;
     margin-left: 12%;
+    padding-top: 4%;
     -webkit-text-shadow: 1px 1px 2px #161c24;
     -moz-text-shadow: 1px 1px 2px #161c24;
     -ms-text-shadow: 1px 1px 2px #161c24;
     -o-text-shadow: 1px 1px 2px #161c24;
     text-shadow: 1px 1px 2px #161c24;
+}
+footer .layout-column:nth-child(2) .media{
+    margin-left: 0;
 }
 footer .media-text{
     font-family: Arial;
@@ -295,6 +299,7 @@ footer .media-text a{
 .email{
     background-color:#363e48;
     height: auto;
+    margin-bottom: 12.5%;
     width: 85.71428571428571%;
 }
 input[type="email"]{
