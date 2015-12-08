@@ -43,7 +43,6 @@ q:before, q:after {
     content: none;
 }
 /**End Browser styles default**/
-
 body{
     font-family: Arial;
     margin:0;
@@ -112,7 +111,6 @@ header{
     margin-left: 4.87%;
     padding: .2% 0 2.8% 0;
     width: 42.25%;
-
 }
 /**News photo**/
 .news-pic{
@@ -261,7 +259,6 @@ footer .layout-column{
 footer .layout-column:nth-child(2){
     width: 63.66666666666667%;
 }
-
 /**Footer Text**/
 footer .media{
     color:#ffb400;
@@ -294,7 +291,6 @@ footer .media-text a{
     color: #ffffff;
 }
 /**End Footer Text**/
-
 /**Form**/
 .email{
     background-color:#363e48;
